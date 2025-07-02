@@ -1,6 +1,6 @@
 import React from 'react';
 import ServicioCard from './ServicioCard';
-import servicio1 from '../assets/Ciudad.jpg';
+import servicio1 from '../assets/ciudad1.webp';
 import servicio2 from '../assets/palacio_de_justicia_2.webp';
 import servicio3 from '../assets/registro-de-la-propiedad.webp';
 import servicio4 from '../assets/ministerio-de-economia.jpg';
