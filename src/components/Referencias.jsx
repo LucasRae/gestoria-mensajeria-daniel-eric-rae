@@ -27,15 +27,16 @@ export default function Referencias() {
           transition={{ duration: 0.7, delay: 0.3 }}
         >
           <h3>Así trabajamos</h3>
-          <ul>
-            <li>Toma de consulta</li>
-            <li>Realización de presupuesto</li>
-            <li>Recepción de documentación</li>
-            <li>Seguimiento permanente del trámite</li>
-            <li>Contacto continuo con el cliente</li>
-            <li>Asesoramiento personalizado</li>
-            <li>Método de pago (efectivo o transferencia)</li>
-          </ul>
+<ul>
+  <li>Primera consulta personalizada</li>
+  <li>Elaboración detallada de presupuesto</li>
+  <li>Recepción y gestión de documentación</li>
+  <li>Seguimiento continuo y actualizado del trámite</li>
+  <li>Comunicación permanente con el cliente</li>
+  <li>Asesoramiento profesional adaptado a cada caso</li>
+  <li>Opciones de pago: efectivo o transferencia bancaria</li>
+</ul>
+
         </motion.div>
 
         <motion.div

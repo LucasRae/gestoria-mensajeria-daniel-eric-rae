@@ -9,11 +9,10 @@ export default function CoreCaratula() {
         className="caratula-img"
       />
       <h3 className="caratula-titulo mt-3">Daniel Eric Rae</h3>
-      <p className="caratula-parrafo mt-3">
-        Realizamos trámites presenciales y virtuales. Hace más de 30 años
-        trabajamos en equipo con la mayor responsabilidad y eficacia. Atendemos
-        sus requerimientos con profesionalismo, seriedad y respeto.
-      </p>
+     <p className="caratula-parrafo mt-3">
+  Brindamos <strong>servicios de gestoría y mensajería</strong> con alcance en <strong>La Plata</strong> y toda la <strong>Provincia de Buenos Aires</strong>. Nos especializamos en <strong>diligenciamientos judiciales, trámites documentales</strong> y <strong>gestiones ante organismos públicos</strong>, con un enfoque basado en la <strong>responsabilidad, la eficiencia</strong> y el <strong>trato personalizado</strong>.
+</p>
+
       </div>
   );
 }

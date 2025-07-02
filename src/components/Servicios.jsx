@@ -12,53 +12,55 @@ import servicio8 from '../assets/munilaplata.webp';
 const servicios = [
   {
     img: servicio1,
-    titulo: 'Localización verificación y constatación de domicilio',
-    descripcion: 'El equipo se encarga de acercarse a la ubicación en concreto para LOCALIZAR, VERIFICAR y CONSTATAR la EXISTENCIA del domicilio real de la persona, de manera que se le FACILITE al NOTIFICADOR. A continuación se entrega un informe escrito donde especifique: Cómo llegar y una descripción del lugar, adjuntando fotos del mismo.',
+    titulo: 'Localización y constatación de domicilio',
+    descripcion: 'Nos dirigimos al domicilio declarado para verificar su existencia. Entregamos un informe con fotos y detalles precisos para facilitar la tarea del notificador.',
   },
   {
     img: servicio2,
     titulo: 'Diligenciamientos judiciales',
-    descripcion: 'Cédula de notificación y oficios a las reparticiones públicas y privadas. Presentaciones en los juzgados de paz Prov. Buenos Aires.',
+    descripcion: 'Realizamos presentaciones de cédulas de notificación y oficios ante organismos públicos y privados. Tramitamos diligencias en juzgados de paz de la Provincia de Buenos Aires.',
   },
   {
     img: servicio3,
-    titulo: 'Registro de la propiedad',
-    descripcion: 'Inscripciones: Subastas, sucesiones: cesión de derechos hereditarios, partición.Solicitud de informe de dominio, inhibición, consulta al índice de titulares, etc.',
+    titulo: 'Trámites en el Registro de la Propiedad',
+    descripcion: 'Gestionamos inscripciones (subastas, sucesiones, cesiones), informes de dominio, inhibiciones y consultas al índice de titulares.',
   },
   {
     img: servicio4,
-    titulo: 'Dirección de Catastro Provincia de Buenos Aires',
-    descripcion: 'Declaración Jurada (DDJJ) de sellos. - Certificado de Catastro. - Valuación fiscal. - Cédula y plancheta catastral.',
+    titulo: 'Dirección de Catastro',
+    descripcion: 'Trámites ante Catastro de Provincia de Buenos Aires: DDJJ de sellos, certificado catastral, valuación fiscal, cédula y plancheta.',
   },
   {
     img: servicio5,
-    titulo: 'Habilitación municipal En la Ciudad de La Plata',
-    descripcion: '',
+    titulo: 'Habilitaciones municipales',
+    descripcion: 'Tramitamos habilitaciones y presentaciones ante la Municipalidad de La Plata, obras particulares y más.',
   },
   {
     img: servicio6,
-    titulo: 'Registro Civil Provincia de Buenos y CABA',
-    descripcion: 'Solicitud de partidas (Mat, Def, Nac.). Inscripción de divorcio.',
+    titulo: 'Registro Civil',
+    descripcion: 'Solicitamos partidas (nacimiento, defunción, matrimonio) e inscripción de divorcios tanto en Provincia como en CABA.',
   },
   {
     img: servicio7,
-    titulo: 'Mensajería en general',
-    descripcion: 'Ciudad de La Plata - Provincia de Buenos Aires - CABA - Resto del país (a consultar)',
+    titulo: 'Mensajería legal y general',
+    descripcion: 'Realizamos entregas y trámites en La Plata, CABA, Provincia de Buenos Aires y el interior del país (a consultar).',
   },
   {
     img: servicio8,
-    titulo: 'Libre deuda Municipal',
-    descripcion: 'Liquidación de deuda con Apremio. Diligenciamiento de Plano - Obras particulares, mensura, etc. Nota - Trámites administrativos y / o judicial a consultar',
+    titulo: 'Libre deuda municipal',
+    descripcion: 'Solicitamos liquidación de deuda, trámites con apremios, obras particulares, mensura, y notas administrativas o judiciales.',
   },
 ];
+
 
 export default function Servicios() {
   return (
     <section id="servicios" className="container py-5 seccion-servicios">
       <h2 className="text-center mb-4">Servicios</h2>
       <p className="descripcion-servicios text-center mb-5">
-        Ofrecemos un completo abanico de soluciones en gestoría y mensajería. Nuestra experiencia asegura un servicio ágil, confiable y personalizado para cada cliente.
-      </p>
+  Realizamos <strong>gestiones legales y administrativas</strong> ante organismos públicos y privados. Nuestro equipo brinda un servicio <strong>ágil, serio y personalizado</strong> en La Plata, Provincia de Buenos Aires, CABA y todo el país.
+</p>
+
       <div className="grilla-servicios">
         {servicios.map(({ img, titulo, descripcion }, idx) => (
           <ServicioCard

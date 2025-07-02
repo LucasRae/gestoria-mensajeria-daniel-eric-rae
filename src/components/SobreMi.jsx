@@ -3,8 +3,10 @@ export default function SobreMi() {
     <section id="sobre-mi" className="container py-5 seccion-sobremi">
       <h2>Sobre mí</h2>
       <h4 className="mb-3">Más de 30 años de experiencia</h4>
-      <p>
-        Soy un profesional comprometido con brindar soluciones prácticas, eficientes y personalizadas. Me especializo en trámites administrativos, diligenciamientos judiciales y servicios de mensajería, con un enfoque centrado en la responsabilidad, la transparencia y el trato directo con cada cliente. Mi objetivo es facilitar cada gestión, acompañando el proceso con seguimiento permanente y asesoramiento claro en cada etapa. </p>
-    </section>
+    <p>
+  Cuento con más de <strong>30 años de trayectoria</strong> en el ámbito de la <strong>gestoría administrativa y judicial</strong>. Trabajo de forma cercana y comprometida, realizando <strong>presentaciones ante juzgados de paz, Registros de la Propiedad, Dirección de Catastro</strong> y <strong>municipalidades</strong>. Acompaño cada gestión con <strong>seguimiento constante</strong> y asesoramiento claro, para garantizar soluciones eficaces adaptadas a cada cliente.
+</p>
+
+      </section>
   );
 }
