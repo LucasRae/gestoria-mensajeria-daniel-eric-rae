@@ -1,0 +1,110 @@
+/* Contenedor del header */
+.mi-header {
+  
+  background-color: #0d1117;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #1f2937;
+}
+
+/* Flex contenedor */
+.header-contenedor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Logo */
+.logo {
+  color: #a5b4fc;
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Botón hamburguesa */
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: #a5b4fc;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+/* Menú principal */
+.menu {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li a {
+  color: #e0e0e0;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.menu li a:hover {
+  color: #a5b4fc;
+}.logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1.6rem; /* texto más grande */
+  color: var(--color-primary);
+  text-decoration: none;
+  user-select: none;
+  transition: color 0.3s ease;
+}
+
+.logo img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.25));
+  transition: transform 0.3s ease;
+}
+
+.logo:hover,
+.logo:focus {
+  color: var(--color-primary-dark);
+  outline: none;
+}
+
+.logo:hover img,
+.logo:focus img {
+  transform: scale(1.12);
+}
+
+
+/* Versión móvil */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  .menu {
+    position: absolute;
+    top: 70px;
+    right: 2rem;
+    background-color: #1e293b;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.5);
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1.2rem;
+    display: none;
+    z-index: 1000;
+  }
+
+  .menu.activo {
+    display: flex;
+  }
+}
