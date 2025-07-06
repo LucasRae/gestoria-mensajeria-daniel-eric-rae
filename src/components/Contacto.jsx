@@ -35,12 +35,12 @@ export default function Contacto() {
           style={{ maxWidth: '600px' }}
         >
           <div className="mb-3">
-            <label className="form-label text-light">Nombre</label>
+            <label className="form-label text-light">Apellido y nombre</label>
             <input
               type="text"
               name="nombre"
               className="form-control"
-              placeholder="Tu nombre"
+              placeholder="Apellido, nombre"
               required
               autoComplete="name"
             />

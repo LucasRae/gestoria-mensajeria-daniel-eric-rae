@@ -10,14 +10,7 @@ export default function Referencias() {
 
   return (
     <section id="referencias" className="container py-5 referencias-section" ref={ref}>
-      <motion.h2
-        className="mb-4"
-        initial={{ opacity: 0, y: -20 }}
-        animate={isInView ? { opacity: 1, y: 0 } : {}}
-        transition={{ duration: 0.6 }}
-      >
-        Así trabajamos & Referencias
-      </motion.h2>
+      
 
       <div className="cards-container">
         <motion.div
@@ -39,20 +32,7 @@ export default function Referencias() {
 
         </motion.div>
 
-        <motion.div
-          className="card card-transparent"
-          initial={{ opacity: 0, x: 100 }}
-          animate={isInView ? { opacity: 1, x: 0 } : {}}
-          transition={{ duration: 0.7, delay: 0.5 }}
-        >
-          <h3>Referencias</h3>
-          <ul>
-            <li>Estudio Tesler & Asoc.</li>
-            <li>Estudio Plandolit</li>
-            <li>Todaro & Asoc.</li>
-            <li>Estudio Pulliambre</li>
-          </ul>
-        </motion.div>
+     
       </div>
     </section>
   );

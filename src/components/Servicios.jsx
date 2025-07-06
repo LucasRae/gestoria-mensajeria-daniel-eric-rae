@@ -8,6 +8,7 @@ import servicio5 from '../assets/Municipalidad.jpg';
 import servicio6 from '../assets/RegistroCABA.jpg';
 import servicio7 from '../assets/Ciudad3.jpg';
 import servicio8 from '../assets/munilaplata.webp';
+import { p } from 'framer-motion/client';
 
 const servicios = [
   {
@@ -18,12 +19,12 @@ const servicios = [
   {
     img: servicio2,
     titulo: 'Diligenciamientos judiciales',
-    descripcion: 'Realizamos presentaciones de cédulas de notificación y oficios ante organismos públicos y privados. Tramitamos diligencias en juzgados de paz de la Provincia de Buenos Aires.',
+    descripcion: 'Realizamos presentaciones de cédulas de notificación y oficios ante organismos públicos y privados. Tramitamos diligencias en juzgados de paz de la Provincia de Buenos Aires y CABA.',
   },
   {
     img: servicio3,
-    titulo: 'Trámites en el Registro de la Propiedad',
-    descripcion: 'Gestionamos inscripciones (subastas, sucesiones, cesiones), informes de dominio, inhibiciones y consultas al índice de titulares.',
+    titulo: 'Registro de la Propiedad Inmueble',
+    descripcion: 'Gestionamos inscripciones (subastas, sucesiones, cesiones, Ley N° 22.172, bien de familia, etc), informes de dominio, inhibiciones y consultas al índice de titulares.',
   },
   {
     img: servicio4,
@@ -31,25 +32,21 @@ const servicios = [
     descripcion: 'Trámites ante Catastro de Provincia de Buenos Aires: DDJJ de sellos, certificado catastral, valuación fiscal, cédula y plancheta.',
   },
   {
-    img: servicio5,
-    titulo: 'Habilitaciones municipales',
-    descripcion: 'Tramitamos habilitaciones y presentaciones ante la Municipalidad de La Plata, obras particulares y más.',
-  },
+  img: servicio5,
+  titulo: 'Municipalidad de La Plata',
+  descripcion:  `Tramitamos habilitaciones y presentaciones ante la Municipalidad de La Plata, obras particulares. Libre deuda municipal: solicitamos liquidación de deuda con apremio. Consultar por otros trámites.`
+},
   {
     img: servicio6,
-    titulo: 'Registro Civil',
-    descripcion: 'Solicitamos partidas (nacimiento, defunción, matrimonio) e inscripción de divorcios tanto en Provincia como en CABA.',
+    titulo: 'Registro Civil de las Personas de Buenos Aires y CABA',
+    descripcion: 'Solicitamos partidas, rectificación de actas (nacimiento, defunción, matrimonio) e inscripción de divorcios tanto en Provincia de Buenos Aires, como en CABA.',
   },
   {
     img: servicio7,
     titulo: 'Mensajería legal y general',
-    descripcion: 'Realizamos entregas y trámites en La Plata, CABA, Provincia de Buenos Aires y el interior del país (a consultar).',
+    descripcion: 'Realizamos entregas y trámites en La Plata, CABA, Provincia de Buenos Aires y el interior del país (sujeto a coordinación previa).',
   },
-  {
-    img: servicio8,
-    titulo: 'Libre deuda municipal',
-    descripcion: 'Solicitamos liquidación de deuda, trámites con apremios, obras particulares, mensura, y notas administrativas o judiciales.',
-  },
+ 
 ];
 
 
